@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios'
-import Toolbar from 'Toolbar.js'
+import Header from "./components/Header"
+import ContentView from "./components/ContentView"
 
 class App extends Component {
     state = {
@@ -85,10 +86,11 @@ getVenues = () => {
 
   render() {
     return (
+<main><div className="App">
+        <Header />
+        <ContentView />
 
-<main>
-
-        <div id="map"></div>
+    </div>
 </main>
     )
   }

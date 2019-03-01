@@ -2,64 +2,24 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-
-
 #map {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 position: relative;
   display: none;
 
 }
-/* Optional: Makes the sample page fill the window. */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 
-#sidenav{
-  position:fixed;
-  top:0;
-  left:0;
-  width: 300px;
-  max-width:100%;
-  height: 400px;
-  max-height: 100vh;
-  z-index: 1000;
-  background: red;
+#items{
+  width: 25%;
+  height: 100%;
+  background-color: deeppink;
+  z-index: 1;
+  position: absolute;
+
 }
+/* Optional: Makes the sample page fill the window. */
+
 
 
 
